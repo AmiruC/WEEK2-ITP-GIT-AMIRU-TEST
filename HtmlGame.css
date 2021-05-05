@@ -53,7 +53,7 @@ body{
   height: 750px;
   width: 100%;
   margin: 0%;
-  background-image: url("Game Images/maxresdefault.jpg");
+  background-image: url("maxresdefault.jpg");
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center;
@@ -127,7 +127,7 @@ body{
     height: 750px;
     width: 100%;
     margin: 0%;
-    background-image: url("Game Images/cam_afh_fr0and1_boekenkast0000.jpg__1280x960_q85_crop_subsampling-2_upscale.jpg");
+    background-image: url("cam_afh_fr0and1_boekenkast0000.jpg__1280x960_q85_crop_subsampling-2_upscale.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center;
