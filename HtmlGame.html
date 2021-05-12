@@ -5,10 +5,10 @@
     </head>
 
     <body>
-       <!--Changes-->
+       
         <div id = "nav">
           <h1 id = "title" >Escape</h1>  
-          <a class = "AboutBtn" href = "a">About</a>
+          <a class = "AboutBtn" href = "HtmlGameAbout.html">About</a>
         </div>
         
        <div id = "bodyAbout"> 
@@ -46,9 +46,25 @@
          </div>
 
         <div id = "bodyStart">
-         <div id = "btnStrDiv">
-          <a id="StrtBtn" href="#">Unlock the padlock</a>
-         </div> 
+          <a id = "btnbtn" href="Lock1.html">
+            <svg class="icon-arrow before">
+                <use xlink:href="#arrow"></use>
+            </svg>
+            <span class="label">Begin</span>
+            <svg class="icon-arrow after">
+                <use xlink:href="#arrow"></use>
+            </svg>
+        </a>
+        
+        <svg style="display: none;">
+          <defs>
+            <symbol id="arrow" viewBox="0 0 35 15">
+              <title>Arrow</title>
+              <path d="M27.172 5L25 2.828 27.828 0 34.9 7.071l-7.07 7.071L25 11.314 27.314 9H0V5h27.172z "/>
+            </symbol>
+          </defs>
+        </svg>
+        </div>
         </div>
 
 
