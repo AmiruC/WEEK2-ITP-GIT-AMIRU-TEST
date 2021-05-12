@@ -42,16 +42,27 @@ body{
 
 #divQuestions{
  height: 600px;
- width:100%;
+ width: 80%;
  border-top: red 5px solid;
- border-bottom: red 5px solid;
+
+ border-right: white 4px solid;
  background-color: black;
 }
 
 #divShowAnsExpl{
-    height: 600px;
+ height: 250px;
  width:100%;
- border-top: green 5px solid;
- border-bottom: red 5px solid;
- background-color: black;
+ background-color: white;
+}
+
+#img{
+    margin-top: 30px;
+    height: 450px;
+    width:50%;
+    background-image: url("Screenshot (14).png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding-top:3px;
+    
+
 }
