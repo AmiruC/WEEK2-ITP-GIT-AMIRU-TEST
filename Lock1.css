@@ -70,6 +70,8 @@ body{
     display:grid;
     grid-template-columns:20em 20em 20em 20em;
     justify-items:auto ;
+    text-align: center;
+    padding-left:250px;
 }
 
 .btn:hover {
