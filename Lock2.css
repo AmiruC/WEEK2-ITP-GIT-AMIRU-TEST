@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: black;
+    background-color: green;
    }
 /*Navigation*/
 #nav{
@@ -39,77 +39,12 @@ body{
 /*Above is the Nav and the body*/
 
 /*Below is the code for the Showing of the questions*/
-
-.question {
-    height: 75px;
-    width: 100%;
-    background-color: black;
-    color: orange;
-    text-align: center;
-    justify-content: flex-start;
-    font-size: larger;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-
-
-.btn {
-    cursor: pointer;
-    margin: none;
-    border-color: orange;
-    padding: 10px 10px;
-    background-color: orange;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
-
-    justify-items: center;
-}
-
-.choices {
-    display:grid;
-    grid-template-columns:20em 10em 20em 20em;
-    justify-items:auto ;
-    text-align: center;
-    padding-left: 170px;
-}
-
-.btn:hover {
-    color: black;
-}
-
-
-#divQuestions{
- height: 450px;
- width: 80%;
- border-top: red 5px solid;
-
- border-right: white 4px solid;
- background-color: black;
-}
-
-
-
-#img{
-    margin-top: 30px;
-    height: 450px;
-    width:50%;
-    background-image: url("Screenshot (14).png");
-    background-repeat: no-repeat;
-    background-size: cover; 
-    padding-top:3px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 #AnsExpl{
- height: 250px;
- margin-top: 20px;
- width: 100%;
- background-color: white;
- border:black 4px solid;
+    height: 250px;
+    background-color: white;
+    width: 100%;
+    
+
 }
 
 #walkiTalkie{
