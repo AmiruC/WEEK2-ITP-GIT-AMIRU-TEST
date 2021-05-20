@@ -40,6 +40,7 @@ body{
     font-size: 30px;
     color: rgb(0, 140, 255);
     text-decoration:overline;
+    padding-left:135px;
 }
 
     #txt1,#txt2{
@@ -62,7 +63,7 @@ body{
     font-weight: bold;
     line-height: 24px;
     margin-top: 5%;
-    margin-left:40%;
+    margin-left:44%;
     padding: 12px 32px 12px 82px;
     position: relative;
     text-decoration: none;
