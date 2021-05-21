@@ -1,9 +1,9 @@
 <!DOCTYPE html>
  <html>
     <head> 
-      <link href="EscapeScreen.css" rel="stylesheet" type="text/css">
+      <link href="CaughtScreen.css" rel="stylesheet" type="text/css">
     </head>
-
+    
     <body>
         <div id = "nav">
             <h1 id = "title" >Escape</h1>  
@@ -12,18 +12,19 @@
           </div>
 
           <div id = "body">
-              <p id = "txtHead" >Congratulations!</p>
-              <p id = "txt1">You have succesfully unlocked all the doors.</p>
-              <p id = "txt2"> You are free to leave.</p>
+              <p id = "txtHead" >You have been caught</p>
+              <p id = "txt1">Unfortunately you have failed to unlock this door.</p>
+              <p id = "txt2">Please think carefully and attempt the problem again.</p>
           </div>
 
-          <img src = "Escaped.gif" alt = "Jumping out of room" class = "center"/>
-           
-          <a id = "btnbtn" href="HtmlGameAbout.html">
+          <img src = "Caught.gif" alt = "Dog failed escape" class = "center"/>
+
+          <!-- Change the href for "btnbtn" to the failed room for each question-->
+          <a id = "btnbtn" href="Lock3.html">
             <svg class="icon-arrow before">
                 <use xlink:href="#arrow"></use>
             </svg>
-            <span class="label">Return To Home</span>
+            <span class="label">Retry</span>
             <svg class="icon-arrow after">
                 <use xlink:href="#arrow"></use>
             </svg>
@@ -38,6 +39,3 @@
           </defs>
         </svg>
         </div>
-
-
-    </body>
