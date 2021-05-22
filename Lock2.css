@@ -74,9 +74,9 @@ body{
 
 .choices {
     display:grid;
-    grid-template-columns:20em 20em 20em 20em;
+    grid-template-columns:13em 14em 20em 20em;
     justify-items:auto ;
-    padding-left:75px;
+    padding-left:200px;
     
 }
 
